@@ -10,3 +10,8 @@ variable "region" {
   description = "Region variable"
 }
 
+variable "zone" {
+  type        = string
+  default     = "default_zone"
+  description = "Zone variable"
+}
